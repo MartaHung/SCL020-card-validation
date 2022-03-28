@@ -5,19 +5,18 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="contenedor">
     <header>
-      <h1>
-        Detalles del Viaje
-      </h1>
+      <h1 id="title"></h1> Detalles del Viaje
+    </h1>
     </header>
-    <main>
-      <section>
+    <main >
+      <section >
         <span>
           Santiago <figure> </figure> La Serena
         </span>
       </section>
-      <section>
+      <section class="encabezado">
           <p>Fecha del vuelo
             31-03-2022
             10:24
@@ -44,12 +43,15 @@
 <ul>
   <label for="">
     Número de la Tarjeta
+    <input type="text" name="" id="cardNumber">
   </label>
   <label for="">
     Código CVV
+    <input type="text" name="" id="codeCvv">
   </label>
   <label for="">
     Fecha de Vencimiento
+    <input type="text" name="" id="dateCard">
   </label>
 </ul>
 <button>

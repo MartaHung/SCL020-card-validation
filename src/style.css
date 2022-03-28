@@ -1,0 +1,52 @@
+body
+      {
+        background-size: cover;
+         height: 1366px;
+        width: 1024px;
+        background-image: linear-gradient(
+          /*Dirección del gradiente*/ to bottom,
+          /*Primer Color*/ rgba(245, 246, 252, 1),
+          /*segundo color*/ rgba(80, 127, 255, 0.3)
+        ),
+        url(https://https://images.pexels.com/photos/2931915/pexels-photo-2931915.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.pexels.com/photos/258100/pexels-photo-258100.jpeg?cs=srgb&dl=pexels-pixabay-258100.jpg&fm=jpg);
+        padding: 5;
+        margin:5;
+        text-align: center;
+        font-family: 'Montserrat';
+        font-size: 120%;
+        border-radius: 20px;
+        border: 5px solid #ffffff;
+        
+        
+      }
+      .contenedor {
+        background: white;
+        width: 70vw;
+        height: 68vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+        border-radius: 20px;
+        border: 5px solid #ffffff;
+      }
+      .encabezado {
+        background: white;
+        min-width: 200 px;
+        width: 60%;
+        margin-bottom: 4px;
+        margin-top: 10px;  
+       
+       font-family: 'Montserrat';
+       
+
+      h1 {
+        width: 86%;
+        padding: 3px;
+        margin: 3px;
+        margin-left: 100px;
+        color: #072C64; border-radius: 20px;    
+      } border-radius: 20px;    
+      } border-radius: 20px;    
+      }
