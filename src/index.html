@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <link
       rel="stylesheet"
       href="https://fonts.google.com/specimen/Montserrat?query=mon"
@@ -13,13 +14,18 @@
     <div class="contenedor">
       <header>
         <h1 id="tituloWeb">Detalles del Viaje</h1>
-        <hr />
+        <hr/>
       </header>
       <main>
         <section class="destinoVuelo">
-          <p>Santiago</p>
-          <div class="linea"></div>
-          <p>La Serena</p>
+          <div class="linea">
+            <p>Santiago</p>
+          </div>
+          <div class="linea"> 
+            <p>
+              La Serena
+            </p>
+          </div>
         </section>
         <section class="datosVuelo">
           <p>
@@ -34,10 +40,12 @@
         <section class="equipajeVuelo">
           <p>En este vuelo puedes llevar:</p>
           <ul>
-            <li>
+            <li> 
+              
               1 Artículo personal
             </li>
             <li>
+              <i class="fa fa-plane"></i>
               1 Equipaje de mano (10Kg)
             </li>
           </ul>
@@ -63,8 +71,10 @@
             <br>
             <label class="textoTarjeta" for="">
               Fecha de Vencimiento
-             <input type="text" name="" id="fechaTarjeta">
-             <input type="text" name="" id="fechaTarjeta2">
+              <div id="contenedorFecha">
+                <input type="text" name="" id="fechaTarjeta">
+                <input type="text" name="" id="fechaTarjeta2">
+              </div>
             </label>
           </ul>
           <button>
