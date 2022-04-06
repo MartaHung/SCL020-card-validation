@@ -1,15 +1,17 @@
 let botonvalidar = document.getElementById("botonvalidar");
 
-var tarjeta = document.getElementById("numeroTarjeta")
+botonvalidar.addEventListener("click", validar);
 
-if (numeroTarjeta = 10) {
-    botonvalidar.addEventListener("click", incorrecto);
-} else {
-    botonvalidar.addEventListener("click", correcto);
+
+
+
+
+function validar() {
+    var tarjeta = document.getElementById("numeroTarjeta").value
+
+    if (tarjeta==1){
+        alert("correctooooo");
+    } else {
+        alert("buuuuuu");
+    }
 }
-
-function correcto() {
-    alert("correcto")}
-
-function incorrecto() {
-    alert("incorrecto")}
