@@ -54,33 +54,37 @@
           </p>
           <hr>
           <ul class="datosTarjeta">
-            <label class="textoTarjeta" for="">
+            <form id="formulario"> 
+            <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
-              <input type="number" name="" id="numeroTarjeta">
+              <input type="texto"  name="nTarjeta" id="numeroTarjeta" >
             </label>
+              </form>
             <br>
             <label class="textoTarjeta" for="">
               Código CVV
-             <input type="number" name="" id="codigoCvv">
+             <input type="number"  name="" id="codigoCvv">
             </label>
             <br>
             <label class="textoTarjeta" for="">
               Fecha de Vencimiento
               <div id="contenedorFecha">
-                <input type="number" name="" id="fechaTarjeta">
-                <input type="number" name="" id="fechaTarjeta2">
+                <input type="texto" name="" id="fechaTarjeta">
+                <input type="texto" name="" id="fechaTarjeta2">
               </div>
             </label>
           </ul>
-          <button>
+          <button id= "botonvalidar">
             Validar Tarjeta
-          </button>
+         </button>
         </section>
       </main>
       <footer class="aviso">
         <p>Mensaje de Aviso</p>
       </footer>
     </div>
-    <script src="index.js" type="module"></script>
+      <script src="manipulaciondom.js"></script>
+    <script src="validator.js"></script>
   </body>
 </html>
+
