@@ -8,10 +8,9 @@ if (numeroTarjeta = 10) {
     botonvalidar.addEventListener("click", correcto);
 }
 
-
-function incorrecto() {
-    alert("incorrecto")}
-
 function correcto() {
     alert("correcto")}
     window.location="index.html";
+
+function incorrecto() {
+    alert("incorrecto")}
