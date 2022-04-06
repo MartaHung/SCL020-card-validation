@@ -2,7 +2,7 @@ let botonvalidar = document.getElementById("botonvalidar");
 
 var tarjeta = document.getElementById("numeroTarjeta")
 
-if (number(tarjeta)==1) {
+if (tarjeta =>10) {
     botonvalidar.addEventListener("click", incorrecto);
 } else {
     botonvalidar.addEventListener("click", correcto);
