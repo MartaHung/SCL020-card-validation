@@ -10,7 +10,6 @@ if (numeroTarjeta = 10) {
 
 function correcto() {
     alert("correcto")}
-    window.location="index.html";
 
 function incorrecto() {
     alert("incorrecto")}
