@@ -57,7 +57,7 @@
             <form id="formulario"> 
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
-              <input type="texto"  name="nTarjeta" id="numeroTarjeta" >
+              <input type="texto"  name="nTarjeta" id="numeroTarjeta" placeholder="XXXX XXXX XXXX XXXX" >
             </label>
               </form>
             <br>
@@ -69,8 +69,7 @@
             <label class="textoTarjeta" for="">
               Fecha de Vencimiento
               <div id="contenedorFecha">
-                <input type="texto" name="" id="fechaTarjeta2">
-                <input type="texto" name="" id="fechaTarjeta2">
+                <input type="month" name="" id="fechadevencimiento" min="2022-01" max="2028-01">
               </div>
             </label>
           </ul>
@@ -87,4 +86,3 @@
     <script src="validator.js"></script>
   </body>
 </html>
-
