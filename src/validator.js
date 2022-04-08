@@ -14,14 +14,6 @@ function validar() {
 
     let digito_tarjeta = tarjeta%10;
 
-    console.log("Indice")
-
-    console.log(tarjeta);
-    
-    console.log(indice)
-    
-    console.log(digito_tarjeta)
-
     if (indice%2==0){ //par
       suma_tarjeta = suma_tarjeta + digito_tarjeta;
     } else if (2*digito_tarjeta<10) { //impar de un digito
