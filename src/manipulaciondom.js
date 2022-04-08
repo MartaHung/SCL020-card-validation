@@ -1,13 +1,6 @@
-let botonvalidar = document.getElementById("botonvalidar");
-
-botonvalidar.addEventListener("click", validar);
-
-function validar() {
-    var tarjeta = document.getElementById("numeroTarjeta").value
-
-    if (tarjeta==1){
-        alert("correctooooo");
-    } else {
-        alert("buuuuuu");
-    }
-}
+var input=  document.getElementById('numero');
+input.addEventListener('input',function(){
+  if (this.value.length > 16) 
+     this.value = this.value.slice(0,16); 
+})
+	
