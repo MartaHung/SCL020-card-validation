@@ -54,8 +54,8 @@
             <form id="formulario"> 
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
+              <input type="number" min="1" max="9999999999" name="nTarjeta" id="numero" placeholder="XXXX XXXX XXXX XXXX" >
 
-              <input type="text" name="" id="numeroTarjeta">
 
              
 
@@ -74,19 +74,20 @@
             <label class="textTarjeta" for="">
               Fecha de Vencimiento
 
-             <input type="year" name="" id="fechaTarjeta">
-             <input type="month" name="" id="fechaTarjeta2">
+              <div id="contenedorFecha">
+                <input type="month" name="" id="fechadevencimiento" min="2022-01" max="2028-01">
+              </div>
+
+
+             
+
             </label>
           </ul>
 
         </section>
       </main>
-      <footer class="aviso">
-        <p>Mensaje de Aviso</p>
-      </footer>
     </div>
       <script src="manipulaciondom.js"></script>
     <script src="validator.js"></script>
   </body>
 </html>
-

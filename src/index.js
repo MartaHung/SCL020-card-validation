@@ -1,4 +1,5 @@
 
+
 import validator from './validator.js';
 /*console.log(validator); */
 
@@ -20,6 +21,7 @@ botonvalidar.addEventListener("click", ()=> {
 maskify_pant.addEventListener("click", maskify);
 let numero =  document.getElementById("numero").value;
 maskify(numero); //*/
+
 
 
 
