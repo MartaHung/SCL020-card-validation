@@ -1,13 +1,25 @@
+
+import validator from './validator.js';
+/*console.log(validator); */
+
 let botonvalidar = document.getElementById("botonvalidar");
 
-botonvalidar.addEventListener("click", validar);
+botonvalidar.addEventListener("click", ()=> {
 
-function validar() {
-    var tarjeta = document.getElementById("numeroTarjeta").value
-
-    if (tarjeta==1){
-        alert("correctooooo");
-    } else {
-        alert("buuuuuu");
-    }
+    let tarjeta = document.getElementById("numero").value;
+    validator(numero);
 }
+
+);
+
+
+
+
+/*let maskify_pant = document.getElementById("botonvalidar");
+
+maskify_pant.addEventListener("click", maskify);
+let numero =  document.getElementById("numero").value;
+maskify(numero); //*/
+
+
+

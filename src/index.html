@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
-    <script src="https://kit.fontawesome.com/93c3dea8c8.js" crossorigin="anonymous"></script>
     <link
       rel="stylesheet"
       href="https://fonts.google.com/specimen/Montserrat?query=mon"
@@ -14,13 +13,13 @@
     <div class="contenedor">
       <header>
         <h1 id="tituloWeb">Detalles del Viaje</h1>
-        <hr/>
+        <hr />
       </header>
       <main>
         <section class="destinoVuelo">
-          <div class="linea">
-            <p>Santiago ------------<i class="fa-solid fa-plane"></i>-------------- La Serena</p>
-          </div>
+          <p>Santiago</p>
+          <div class="linea"></div>
+          <p>La Serena</p>
         </section>
         <section class="datosVuelo">
           <p>
@@ -35,12 +34,10 @@
         <section class="equipajeVuelo">
           <p>En este vuelo puedes llevar:</p>
           <ul>
-            <li> 
-              <i class="fa-solid fa-bag-shopping"></i>
-            1 Artículo personal
+            <li>
+              1 Artículo personal
             </li>
             <li>
-              <i class="fa-solid fa-suitcase-rolling"></i>
               1 Equipaje de mano (10Kg)
             </li>
           </ul>
@@ -57,26 +54,31 @@
             <form id="formulario"> 
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
-              <input type="texto"  name="nTarjeta" id="numeroTarjeta" >
+
+              <input type="text" name="" id="numeroTarjeta">
+
+             
+
             </label>
               </form>
             <br>
             <label class="textoTarjeta" for="">
               Código CVV
-             <input type="number"  name="" id="codigoCvv">
+
+             <input type="text" name="" id="codigoCvv">
+
+   
+
             </label>
             <br>
-            <label class="textoTarjeta" for="">
+            <label class="textTarjeta" for="">
               Fecha de Vencimiento
-              <div id="contenedorFecha">
-                <input type="texto" name="" id="fechaTarjeta2">
-                <input type="texto" name="" id="fechaTarjeta2">
-              </div>
+
+             <input type="year" name="" id="fechaTarjeta">
+             <input type="month" name="" id="fechaTarjeta2">
             </label>
           </ul>
-          <button id= "botonvalidar">
-            Validar Tarjeta
-         </button>
+
         </section>
       </main>
       <footer class="aviso">
