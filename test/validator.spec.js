@@ -6,7 +6,7 @@ describe('validator', () => {
     expect(typeof validator).toBe('function');
   });
 
-  describe('validator, () => {
+  describe('validator', () => {
     it('debería ser una función', () => {
       expect(typeof validator).toBe('function');
     });

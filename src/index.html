@@ -57,17 +57,20 @@
             <form id="formulario"> 
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
+
               <input type="text" minlenght="1" maxlength="16" name="nTarjeta" id="numero" placeholder="    ****   ****  ****  ****     ">
-            </label>
-              </form>
-            <br>
-            <label class="textoTarjeta" for="">
-              Código CVV
+
+              <input type="text" name="" id="numeroTarjeta">
+
+
             <input type="text" minlenght="1" maxlength="3" id="cvv" placeholder=" ***">
+
+
             </label>
             <br>
             <label class="textoTarjeta" for="">
               Fecha de Vencimiento
+
               <div id="contenedorFecha">
                 <input type="date" name="" id="start" value="2022-04-01" min="2022-01-01" max="2022-12-31">
               </div>
@@ -76,10 +79,21 @@
           <button id= "botonvalidar">
             Validar Tarjeta
          </button>
+
+
+             <input type="year" name="" id="fechaTarjeta">
+             <input type="month" name="" id="fechaTarjeta2">
+            </label>
+          </ul>
+
+
         </section>
       </main>
     </div>
+
     <script type="module" src="index.js"></script>
     <script type="module" src="validator.js"></script>
+
   </body>
 </html>
+
