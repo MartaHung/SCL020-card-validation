@@ -36,7 +36,7 @@ function validator (cardnumber) {
   } 
 }
 
-function maskify(cardnumber)=>{
+function maskify(cardnumber) {
   
   let doceDigitos = numero.slice(0,-4);
   let ultimosDigitos= numero.slice(-4);
@@ -45,7 +45,6 @@ function maskify(cardnumber)=>{
   return enmascararDigitos;
 }
 
-};
 export default {validator, maskify}; 
 
 
