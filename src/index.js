@@ -1,6 +1,27 @@
-var input=  document.getElementById('numero');
-input.addEventListener('input',function(){
-  if (this.value.length > 16) 
-     this.value = this.value.slice(0,16); 
-})
-	
+
+
+import validator from './validator.js';
+/*console.log(validator); */
+
+let botonvalidar = document.getElementById("botonvalidar");
+
+botonvalidar.addEventListener("click", ()=> {
+
+    let tarjeta = document.getElementById("numero").value;
+    validator(numero);
+}
+
+);
+
+
+
+
+/*let maskify_pant = document.getElementById("botonvalidar");
+
+maskify_pant.addEventListener("click", maskify);
+let numero =  document.getElementById("numero").value;
+maskify(numero); //*/
+
+
+
+
