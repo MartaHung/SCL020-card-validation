@@ -4,8 +4,9 @@ import {validator, maskify}  from './validator.js';
 let numero ="";
 
 let botonvalidar = document.getElementById("botonvalidar");
-botonvalidar.addEventListener("click", ()=>{
-   numero =  document.getElementById("numero").value;
+botonvalidar.addEventListener("click", (event)=>{
+    event.preventDefault();
+  let numero =  document.getElementById("numero").value;
     validator(numero);
     maskify(numero);
 })

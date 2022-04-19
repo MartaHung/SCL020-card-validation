@@ -1,11 +1,7 @@
 /*const validator = {
-  // ...
+  // ...*/
 
 
-
-/*let botonvalidar = document.getElementById("botonvalidar");
-
-botonvalidar.addEventListener("click", validator);*/
 function validator (cardnumber) {
  
   
