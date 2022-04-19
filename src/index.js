@@ -1,21 +1,11 @@
-import validator from './validator.js';
+import {validator, maskify}  from './validator.js';
 /*console.log(validator); */
+let numero ="";
 
 let botonvalidar = document.getElementById("botonvalidar");
-
-botonvalidar.addEventListener("click", ()=> {
-
-    let tarjeta = document.getElementById("numero").value;
+botonvalidar.addEventListener("click", ()=>{
+   numero =  document.getElementById("numero").value;
     validator(numero);
-}
+    maskify(numero);
+})
 
-);
-
-
-
-
-/*let maskify_pant = document.getElementById("botonvalidar");
-
-maskify_pant.addEventListener("click", maskify);
-let numero =  document.getElementById("numero").value;
-maskify(numero); //*/
