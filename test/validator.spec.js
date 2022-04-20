@@ -1,5 +1,6 @@
 // importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
-import {validator, maskify} from '../src/validator';
+import validator from './validator.js';
+import {maskify} from './validator.js';
 
 describe('validator', () => {
   it('debería ser un function', () => {

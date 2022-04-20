@@ -2,9 +2,9 @@
   // ...*/
 
 
-function validator (cardnumber) {
+function validator () {
  
-  
+  let tarjeta = numero.value;
   // Aqui escribir funcion de validacion
 
   let suma_tarjeta = 0; // contador de suma elementos tarjeta con condiciones
@@ -32,15 +32,17 @@ function validator (cardnumber) {
   } 
 }
 
-function maskify(cardnumber) {
+function maskify () {
   
-  let doceDigitos = numero.slice(0,-4);
-  let ultimosDigitos= numero.slice(-4);
+  let numeroInput = numero.value; //variable que toma el valor del input
+
+  let doceDigitos = numeroInput.slice(0,-4);
+  let ultimosDigitos= numeroInput.slice(-4);
   let enmascararDigitos = doceDigitos.replace(/./g, "#") + ultimosDigitos;
-  document.getElementById('numero').value=enmascararDigitos;
-  return enmascararDigitos;
+  numero.value=enmascararDigitos; //se retorna el valor del input y la variable enmascarar
+  
 }
 
-export default {validator, maskify}; 
-
+export default validator; 
+export {maskify};
 
