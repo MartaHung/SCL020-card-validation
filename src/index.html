@@ -54,16 +54,20 @@
           </p>
           <hr>
           <ul class="datosTarjeta">
-            <form id="formulario"> 
+            <div id="imagenContenedor">
+            <img src="https://i.ibb.co/1vFjSds/003-credit-card-2.png" alt="003-credit-card-2" width="150px"/>
+          </div>
+          
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
               <input type="text" minlenght="1" maxlength="16" name="nTarjeta" id="numero" placeholder="    ****   ****  ****  ****     ">
             </label>
             <br>
-            <label>
+            <label class="textoTarjeta">
               Codigo CVV
-              <input type="text" minlenght="1" maxlength="3" id="cvv" placeholder=" ***">
+              <input type="text" minlenght="1" maxlength="3" id="cvv" placeholder="  ***">
             </label>
+            <br>
             <label class="textoTarjeta" for="">
               Fecha de Vencimiento
               <div id="contenedorFecha">
