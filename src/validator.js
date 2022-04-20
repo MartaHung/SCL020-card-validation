@@ -1,7 +1,7 @@
 const validator = {
   
  
-isValid : function () {
+isValid : function (a) {
  
   let tarjeta = numero.value;
   // Aqui escribir funcion de validacion
@@ -31,7 +31,7 @@ isValid : function () {
   } 
 },
 
-maskify : function () {
+maskify : function (b) {
   
   let numeroInput = numero.value; //variable que toma el valor del input
 
