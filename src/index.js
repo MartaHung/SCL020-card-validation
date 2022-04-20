@@ -1,5 +1,5 @@
 import validator from './validator.js';
-import {maskify} from './validator.js';
+import {maskify} from './validator.js'; //se destructura maskify
 
 /*console.log(validator); */
 
