@@ -1,15 +1,15 @@
 import validator from './validator.js';
-import {maskify} from './validator.js'; //se destructura maskify
 
-/*console.log(validator); */
+//console.log(validator);
 
 
 let botonvalidar = document.getElementById("botonvalidar");
 botonvalidar.addEventListener("click", (event)=>{
   event.preventDefault();
-  let numero =  document.getElementById("numero");
-    validator(numero);
-    maskify(numero);
+ let numero = document.getElementById("numero").value;
+ let numero2=  document.getElementById("numero").value;
+ validator.isValid(numero);
+  
+document.getElementById("numero").value = validator.maskify(numero2);
+
 })
-
-
