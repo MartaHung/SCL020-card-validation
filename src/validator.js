@@ -39,7 +39,7 @@ function maskify () {
   let doceDigitos = numeroInput.slice(0,-4);
   let ultimosDigitos= numeroInput.slice(-4);
   let enmascararDigitos = doceDigitos.replace(/./g, "#") + ultimosDigitos;
-  numero.value=enmascararDigitos; //se retorna el valor del input y la variable enmascarar
+  return numero.value=enmascararDigitos; //se retorna el valor del input y la variable enmascarar
   
 }
 
