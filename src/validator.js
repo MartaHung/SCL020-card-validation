@@ -2,8 +2,8 @@ const validator = {
   
  
 isValid : function (a) {
- 
-  let tarjeta = numero.value;
+ console.log(a);
+  let tarjeta = a;
   // Aqui escribir funcion de validacion
 
   let suma_tarjeta = 0; // contador de suma elementos tarjeta con condiciones
@@ -32,13 +32,13 @@ isValid : function (a) {
 },
 
 maskify : function (b) {
-  
-  let numeroInput = numero.value; //variable que toma el valor del input
+  console.log(b);
+  let numeroInput = b; //variable que toma el valor del input
 
   let doceDigitos = numeroInput.slice(0,-4);
   let ultimosDigitos= numeroInput.slice(-4);
   let enmascararDigitos = doceDigitos.replace(/./g, "#") + ultimosDigitos;
-  numero.value=enmascararDigitos; //se retorna el valor del input y la variable enmascarar
+  return enmascararDigitos; //se retorna el valor del input y la variable enmascarar
   
 }
 
