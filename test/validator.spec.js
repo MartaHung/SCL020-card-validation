@@ -1,6 +1,6 @@
-// importamos las funciones validator y maskify
+// importamos validator 
 import validator from './validator.js';
-import {maskify} from './validator.js';
+
 
 
  
