@@ -99,7 +99,7 @@ text-align: center;
 .tarjetaBase {
   position: absolute;
   width: 806px;
-  height: 512px;
+  height: 470px;
   left: 20px;
   top: 708px;
 
@@ -118,7 +118,7 @@ text-align: center;
 .datosTarjeta {
   display: flex;
   flex-direction: column;
-  margin-left: 22px;
+  margin-left: 35px;
 }
 
 .textoTarjeta {
@@ -147,27 +147,17 @@ input {
 #codigoCvv {
   width: 400px;
   height: 40px;
+  justify-content: center;
+ 
 }
 
 #contenedorFecha {
   display: flex;
   flex-direction: row;
-  
   width: 400px;
-  height: 40px;
+  height: 50px;
 }
 
-#fechadevencimiento {
-  width: 400px;
-  height: 40px;
-}
-
-#fechadevencimiento {
-
-  width: 400px;
-  height: 40px;
-  margin-left: 20px;
-}
 
 button {
 position: absolute;
@@ -182,20 +172,6 @@ background: #1C658C;
 border-radius: 30px;
 font-style: normal;
 font-size: 20px;
-}
-
-.aviso {
-  position: absolute;
-  width: 578px;
-  height: 38px;
-  left: 145px;
-  top: 1250px;
-  margin-top: 10px;
-
-  background: #FFFFFF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  text-align: center;
 }
 
 .tarjetaBase {
@@ -241,34 +217,28 @@ input {
   border-radius: 10px;
 }
 
-#numeroTarjeta {
-  width: 400px;
+#numero {
+  width: 200px;
   height: 40px;
 }
 
-#codigoCvv {
-  width: 400px;
+#cvv {
+  width: 50px;
   height: 40px;
 }
 
-#contenedorFecha {
+#start{
+  width: 120px;
+  height: 40px;
+}
+
+#imagenContenedor{
   display: flex;
-  flex-direction: row;
-  
-  width: 400px;
-  height: 40px;
-}
+  position: absolute;
+  align-self: flex-end;
+  margin-top: 30px;
+  margin-right: 50px;
 
-#fechaTarjeta {
-  width: 400px;
-  height: 40px;
-}
-
-#fechaTarjeta2 {
-
-  width: 400px;
-  height: 40px;
-  margin-left: 20px;
 }
 
 button {

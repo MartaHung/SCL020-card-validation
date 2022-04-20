@@ -11,15 +11,13 @@ describe('validator', () => {
       expect(typeof validator).toBe('function');
     });
 
-
- 
-
     it('debería retornar true para "6011000990139424"', () => {
-      expect(validator('6011000990139424')).toBe(true);
+      expect(validator.isValid('6011000990139424')).toBe(true);
     });
 
-    it('debería retornar true para "5555555555554444"', () => {
-      expect(validator('5555555555554444')).toBe(true);
+    it('debería retornar true para "4012888888881881"', () => {
+      expect(validator.isValid('4012888888881881')).toBe(true);
+
 
     });
 
