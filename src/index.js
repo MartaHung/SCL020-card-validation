@@ -10,8 +10,7 @@ botonvalidar.addEventListener("click", (event)=>{
  let numero2=  document.getElementById("numero").value;
  validator.isValid(numero);
   
-
-  document.getElementById("numero").value = validator.maskify(numero2);
+document.getElementById("numero").value = validator.maskify(numero2);
 
 })
 

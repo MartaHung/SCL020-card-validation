@@ -2,7 +2,7 @@ const validator = {
   
  
 isValid : function (a) {
- console.log(a);
+ 
   let tarjeta = a;
   // Aqui escribir funcion de validacion
 
@@ -26,13 +26,14 @@ isValid : function (a) {
   if (suma_tarjeta%10==0){
       alert("tarjeta valida");
   } else {
-       document.getElementById('numero').value=""
+
       alert("tarjeta invalida ¡intenta otra vez!");
+
   } 
 },
 
 maskify : function (b) {
-  console.log(b);
+  
   let numeroInput = b; //variable que toma el valor del input
 
   let doceDigitos = numeroInput.slice(0,-4);
