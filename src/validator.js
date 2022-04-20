@@ -43,4 +43,7 @@ maskify : function (b) {
 
 };
 
-export default validator;
+
+export default validator; 
+
+

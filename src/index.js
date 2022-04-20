@@ -1,6 +1,9 @@
-import validator from './validator.js';
 
-//console.log(validator);
+
+import validator from './validator.js';
+/*console.log(validator); */
+
+
 
 
 let botonvalidar = document.getElementById("botonvalidar");
@@ -16,7 +19,6 @@ botonvalidar.addEventListener("click", (event)=>{
   alert("tarjeta invalida. ¡Intenta otra vez!");
 }
 document.getElementById("numero").value = validator.maskify(numero2);
-
 
 
 })
