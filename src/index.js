@@ -9,7 +9,8 @@ botonvalidar.addEventListener("click", (event)=>{
   event.preventDefault();
   let numero =  document.getElementById("numero");
     validator(numero);
-    maskify(numero);
+    
+    document.getElementById("numero") = maskify(numero);
 })
 
 
