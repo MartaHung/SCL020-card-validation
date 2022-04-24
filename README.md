@@ -4,7 +4,7 @@
 ###### * La validación de la tarjeta de crédito del usuario para la realización de la compra de un pasaje de avión en una aerolínea.
 
 ###### Quiénes son los usuarios y cuál es su objetivo?
-###### * Los usuarios serían viajeros de diferentes edades que quieren realizar la compra de su pasaje o boleto de avión y necesitan validar su tarjeta de crédito para que se haga efectivo el pago.
+###### * Los usuarios serían viajeros de diferentes edades que quieren realizar la compra de su pasaje o boleto de avión y necesitan validar su tarjeta de crédito para que se haga efectivo el pago .
 
 ###### ¿Cómo el producto soluciona los problemas/necesidades del usuario?
 ###### *  La validación de la tarjeta de crédito en una interfaz amigable, le permite a los usuarios tramitar el pago para la compra de su boleto de avión y poder realizar su viaje en la aerolínea.
@@ -20,7 +20,8 @@
 ###### * Creamos un [Trello](https://trello.com/b/xBpw7Swt/card-validation).
 ###### * Definimos objetivos.
 ###### * Realizamos un prototipo en baja basado en la investigación de interfaces.
-###### *  Respondimos preguntas sobre el contexto/producto como parte de una investigación UX
+###### *  Respondimos preguntas sobre el contexto/producto como parte de una investigación UX 
+![img](https://trello.com/1/cards/6265c88825fd6d5e7c58207f/attachments/6265c8c1c8d44914ebb17211/download/Captura_de_Pantalla_2022-04-24_a_la(s)_18.00.17.png)
 ###### * Acercamiento a la elección de colores y tipografía.
 ###### * Investigamos sobre Figma y su aplicación para diseño de UI
 ###### * Realizamos en Figma un primer acercamiento al prototipo en alta
@@ -62,7 +63,8 @@
 
 ###### Día 7
 ###### * Terminamos la estructura visual de la web en CSS y html sin las imágenes
-###### * Investigamos sobre el algoritmo de Lhun nuevamente y desglosamos la operación matemática en un [excel](https://markdownlivepreview.com/) para entenderla. 
+###### * Investigamos sobre el algoritmo de Lhun nuevamente y desglosamos la operación matemática en un Excel para entenderla. 
+![img](https://trello.com/1/cards/6265c94b28791152c52c7db6/attachments/6265c98a78e8a36c49befa82/download/Captura_de_Pantalla_2022-04-24_a_la(s)_18.03.40.png)
 ###### * Repasamos/Investigamos sobre el uso del indexOf() y Search()
 
 
@@ -81,7 +83,7 @@
 
 ## Prototipo en alta:
 
-![img](https://trello.com/c/0ioabacQ)
+![img](https://trello.com/1/cards/6265c6429459de1e42a5c3ef/attachments/6265c6e52c8e24115112be58/download/Captura_de_Pantalla_2022-04-24_a_la(s)_17.53.10.png)
 
 ## Links de información:
 
