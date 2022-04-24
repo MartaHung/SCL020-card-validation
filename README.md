@@ -75,9 +75,13 @@
 ##### * En el Sprint número 3 pudimos resolver los bloqueos que teníamos, ya que nos dimos cuenta al cerrar el sprint 2 que no estabamos pidiendo tanta ayuda en lo que se relacionaba con dudas cortas, OH y hace poco nos habíamos comenzado a juntar con las compañeras. Luego de resolver los bloqueos pudimos ingresar los 16 digitos para que se hiciera el algortimo y al final de la misma semana pudimos resolver lo que era asociado al maskify. Cuando llegamos al cierre del sprint ya habíamos completado los objetivos que nos habiamos propuesto y nos resulto mucho el enfocarnos en pequeñas metas para luego ir logrando las más grandes.
 
  
-## Images
+## Prototipo en baja:
 
-<img src="/img/prototipobaja.jpg" alt="prototipo"/>
+![img](https://trello.com/1/cards/6239ed7d7a6e4c7e2a371467/attachments/623b3d8b84421a78bff3cfec/previews/623b3d8c84421a78bff3d073/download/WhatsApp_Image_2022-03-22_at_6.42.52_PM.jpeg)
+
+## Prototipo en alta:
+
+![img](https://trello.com/c/0ioabacQ)
 
 ## Links de información:
 
