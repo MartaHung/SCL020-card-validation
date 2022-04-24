@@ -1,14 +1,17 @@
-// importamos el objeto `validator`, que contiene las funciones `isValid` y `maskify`
-import validator from '../src/validator';
+// importamos validator 
+import validator from './validator.js';
 
+
+
+ 
 describe('validator', () => {
   it('debería ser un objeto', () => {
-    expect(typeof validator).toBe('function');
+    expect(typeof validator).toBe('object');
   });
 
   describe('validator.isValid', () => {
     it('debería ser una función', () => {
-      expect(typeof validator).toBe('function');
+      expect(typeof validator.isValid).toBe('function');
     });
 
     it('debería retornar true para "6011000990139424"', () => {
@@ -18,11 +21,10 @@ describe('validator', () => {
     it('debería retornar true para "4012888888881881"', () => {
       expect(validator.isValid('4012888888881881')).toBe(true);
 
-
     });
 
     it('debería retornar false para "1234567890"', () => {
-      expect(validator('1234567890')).toBe(false);
+      expect(validator.isValid('1234567890')).toBe(false);
     });
   });
 

@@ -3,9 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <title>Tarjeta de crédito válida</title>
-
     <script src="https://kit.fontawesome.com/93c3dea8c8.js" crossorigin="anonymous"></script>
-
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Montserrat?query=mon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <h1 id="tituloWeb">Detalles del Viaje</h1>
         <hr/>
       </header>
       <main>
@@ -13,7 +21,6 @@
           <div class="linea">
             <p>Santiago ------------<i class="fa-solid fa-plane"></i>-------------- La Serena</p>
           </div>
-
         </section>
         <section class="datosVuelo">
           <p>
@@ -47,11 +54,9 @@
           </p>
           <hr>
           <ul class="datosTarjeta">
-
             <div id="imagenContenedor">
             <img src="https://i.ibb.co/1vFjSds/003-credit-card-2.png" alt="003-credit-card-2" width="150px"/>
           </div>
-          
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
               <input type="text" minlenght="1" maxlength="16" name="nTarjeta" id="numero" placeholder="    ****   ****  ****  ****     ">
@@ -65,7 +70,7 @@
             <label class="textoTarjeta" for="">
               Fecha de Vencimiento
               <div id="contenedorFecha">
-                <input type="date" name="" id="start" value="2022-04-01" min="2022-01-01" max="2022-12-31">
+                <input type="month" name="" id="start" value="2022-01" min="2022-04" max="2028-12">
               </div>
             </label>
           </ul>
@@ -75,9 +80,7 @@
         </section>
       </main>
     </div>
-
     <script src="index.js" type="module"></script>
     <script src="validator.js" type="module"></script>
-
   </body>
 </html>
