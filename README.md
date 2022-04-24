@@ -77,7 +77,7 @@
  
 ## Images
 
-![prototipoenbaja](prototipoenbaja.png)
+![prototipobaja](prototipobaja.png)
 
 ## Links de información:
 
