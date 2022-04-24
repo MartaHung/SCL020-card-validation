@@ -77,9 +77,7 @@
  
 ## Images
 
-
-
-![This is a alt text.](img/prototipobaja.png "This is a sample ima.")
+![prototipoenbaja](prototipoenbaja.png)
 
 ## Links de información:
 
