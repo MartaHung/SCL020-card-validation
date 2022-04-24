@@ -23,12 +23,10 @@ const validator = {
       tarjeta = Math.trunc(tarjeta / 10); 
     }
       // condicion final
-    if (suma_tarjeta%10==0){
-        alert("tarjeta valida");
+      if (suma_tarjeta%10==0){
+        return true;
     } else {
-  
-        alert("tarjeta invalida ¡intenta otra vez!");
-  
+        return false;
     } 
   },
   
