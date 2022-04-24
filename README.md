@@ -77,7 +77,7 @@
  
 ## Images
 
-![prototipobaja](/img/prototipoenalta.png)
+![This is a alt text.](/img/prototipobaja.png "prototipo")
 
 ## Links de información:
 
