@@ -77,7 +77,7 @@
  
 ## Images
 
-![This is a alt text.](/img/prototipobaja.jpg "prototipo")
+<img src="/img/prototipobaja.jpg" alt="prototipo"/>
 
 ## Links de información:
 
