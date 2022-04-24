@@ -1,4 +1,5 @@
 const validator = {
+
   
  
   isValid : function (a) {
@@ -21,6 +22,7 @@ const validator = {
   
       indice = indice - 1;  //resto un numero para poder pasar al siguiente 
       tarjeta = Math.trunc(tarjeta / 10); 
+
     }
       // condicion final
     if (suma_tarjeta%10==0){
@@ -48,3 +50,4 @@ const validator = {
   
   export default validator;
   
+
