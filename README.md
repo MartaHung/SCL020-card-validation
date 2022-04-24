@@ -79,7 +79,7 @@
 
 
 
-![This is a alt text.](/image/sample.png "This is a sample ima.")
+![This is a alt text.](img/prototipobaja.png "This is a sample ima.")
 
 ## Links de información:
 
