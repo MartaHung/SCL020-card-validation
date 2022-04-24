@@ -74,7 +74,7 @@
 
 ###### Sprint 3:
 
-##### * En el Sprint número 3 pudimos resolver los bloqueos que teníamos, ya que nos dimos cuenta al cerrar el sprint 2 que no estabamos pidiendo tanta ayuda en lo que se relacionaba con dudas cortas, OH y hace poco nos habíamos comenzado a juntar con las compañeras. Luego de resolver los bloqueos pudimos ingresar los 16 digitos para que se hiciera el algortimo y al final de la misma semana pudimos resolver lo que era asociado al maskify. Cuando llegamos al cierre del sprint ya habíamos completado los objetivos que nos habiamos propuesto y nos resulto mucho el enfocarnos en pequeñas metas para luego ir logrando las más grandes.
+###### * En el Sprint número 3 pudimos resolver los bloqueos que teníamos, ya que nos dimos cuenta al cerrar el sprint 2 que no estabamos pidiendo tanta ayuda en lo que se relacionaba con dudas cortas, OH y hace poco nos habíamos comenzado a juntar con las compañeras. Luego de resolver los bloqueos pudimos ingresar los 16 digitos para que se hiciera el algortimo y al final de la misma semana pudimos resolver lo que era asociado al maskify. Cuando llegamos al cierre del sprint ya habíamos completado los objetivos que nos habiamos propuesto y nos resulto mucho el enfocarnos en pequeñas metas para luego ir logrando las más grandes.
 
  
 ## Prototipo en baja:
@@ -87,4 +87,6 @@
 
 ## Links de información:
 
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
+[Diseño UX ](https://medium.com/laboratoria/qué-es-ser-una-ux-designer-f81fbc45a44c).
+[Diseño de interfaz ](https://www.youtube.com/watch?v=dJ-9cD16yuw).
+[Algortimo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
