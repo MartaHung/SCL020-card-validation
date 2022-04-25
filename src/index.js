@@ -28,7 +28,6 @@ botonvalidar.addEventListener("click", (event)=>{
 
 
 
-
 let teclas=  document.getElementById('numero');
 teclas.addEventListener('input',function(){
   if (teclas.value.length > 16) 
