@@ -1,6 +1,6 @@
 import validator from './validator.js';
+/*console.log(validator); */
 
-//console.log(validator);
 
   
 let botonvalidar = document.getElementById("botonvalidar");
@@ -10,8 +10,6 @@ botonvalidar.addEventListener("click", (event)=>{
  let numero2= document.getElementById("numero").value;
  validator.isValid(numero);
  
- 
-
  if (validator.isValid(numero) == true){
   alert("¡tarjeta valida!");
   document.getElementById("numero").type = "text";

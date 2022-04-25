@@ -142,7 +142,6 @@ input {
 #contenedorFecha {
   display: flex;
   flex-direction: row;
-  
   width: 400px;
   height: 50px;
 }
@@ -184,3 +183,4 @@ font-size: 20px;
   margin-top: 30px;
   margin-right: 50px;
 }
+

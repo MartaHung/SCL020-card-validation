@@ -17,6 +17,7 @@ describe('validator', () => {
 
     it('debería retornar true para "4012888888881881"', () => {
       expect(validator.isValid('4012888888881881')).toBe(true);
+
     });
 
     it('debería retornar false para "1234567890"', () => {
