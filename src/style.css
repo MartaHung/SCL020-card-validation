@@ -45,11 +45,11 @@ hr {
   border: none;
 }
 
-linea {
+/*linea {
   border-top: 1px solid #072C64;
   height: 2px;
   max-width: 200px;
-}
+}*/
 
 .destinoVuelo {
   display: flex;
@@ -139,25 +139,12 @@ input {
   border-radius: 10px;
 }
 
-#numeroTarjeta {
-  width: 400px;
-  height: 40px;
-}
-
-#codigoCvv {
-  width: 400px;
-  height: 40px;
-  justify-content: center;
- 
-}
-
 #contenedorFecha {
   display: flex;
   flex-direction: row;
   width: 400px;
   height: 50px;
 }
-
 
 button {
 position: absolute;
@@ -172,49 +159,6 @@ background: #1C658C;
 border-radius: 30px;
 font-style: normal;
 font-size: 20px;
-}
-
-.tarjetaBase {
-  position: absolute;
-  width: 806px;
-  height: 512px;
-  left: 20px;
-  top: 708px;
-
-  background: #F4F2F2;
-  mix-blend-mode: normal;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-}
-
-.tituloTarjeta {
-  text-align: center;
-  font-style: normal;
-  font-size: 24px;
-}
-
-.datosTarjeta {
-  display: flex;
-  flex-direction: column;
-  margin-left: 22px;
-}
-
-.textoTarjeta {
-  margin-top: 20px;
-  font-style: normal;
-  font-size: 20px;
-}
-
-input {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  margin-left: 3px;
-
-  border: 1.5px solid #398AB9;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
 }
 
 #numero {
@@ -227,7 +171,7 @@ input {
   height: 40px;
 }
 
-#start{
+#fecha{
   width: 120px;
   height: 40px;
 }
@@ -238,20 +182,5 @@ input {
   align-self: flex-end;
   margin-top: 30px;
   margin-right: 50px;
-}
-
-button {
-position: absolute;
-justify-content: center;
-width: 277px;
-height: 46px;
-left: 260px;
-margin-top: 5%;
-color: #FFFFFF;
-
-background: #1C658C;
-border-radius: 30px;
-font-style: normal;
-font-size: 20px;
 }
 
