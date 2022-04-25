@@ -1,5 +1,4 @@
 const validator = {
-
   
  
   isValid : function (a) {
@@ -11,25 +10,27 @@ const validator = {
     let indice = 16; // contador de indice de elementos de tarjeta, reverso
     
     while (tarjeta > 0) { 
-       let digito_tarjeta = tarjeta%10;
-      if (indice%2==0){ //par
-        suma_tarjeta = suma_tarjeta + digito_tarjeta;
-      } else if (2*digito_tarjeta<10) { //impar de un digito
-        suma_tarjeta = suma_tarjeta + 2*digito_tarjeta;
-      } else { //impar de dos digitos
-        suma_tarjeta = suma_tarjeta + Math.trunc((2*digito_tarjeta)/10) + (2*digito_tarjeta)%10;
-      }
-  
-      indice = indice - 1;  //resto un numero para poder pasar al siguiente 
-      tarjeta = Math.trunc(tarjeta / 10); 
+      let digito_tarjeta = tarjeta%10;
+      let digitosPorDos = 2*digito_tarjeta; //multiplicado *2
+     if (indice%2==0){ //par
+       suma_tarjeta = suma_tarjeta + digito_tarjeta;
+     } else if (digitosPorDos<10) { //impar de un digito
+       suma_tarjeta = suma_tarjeta + digitosPorDos;
+     } else { //impar de dos digitos
+     
+       suma_tarjeta = suma_tarjeta + Math.trunc(digitosPorDos/10) + digitosPorDos%10;
+     }
+ 
+     indice = indice-1;  //resto un numero para poder pasar al siguiente en el ciclo
+     tarjeta = Math.trunc(tarjeta / 10); //Division /10 y se cortan los decimales
 
-    }
-      // condicion final
-      if (suma_tarjeta%10==0){
-        return true;
-    } else {
-        return false;
-    } 
+   }
+     // condicion final
+     if (suma_tarjeta%10==0){
+       return true;
+   } else {
+       return false;
+   } 
   },
   
   maskify : function (b) {
@@ -48,4 +49,3 @@ const validator = {
   
   export default validator;
   
-
