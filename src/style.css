@@ -45,11 +45,11 @@ hr {
   border: none;
 }
 
-linea {
+/*linea {
   border-top: 1px solid #072C64;
   height: 2px;
   max-width: 200px;
-}
+}*/
 
 .destinoVuelo {
   display: flex;
