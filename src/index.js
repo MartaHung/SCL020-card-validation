@@ -14,7 +14,7 @@ botonvalidar.addEventListener("click", (event)=>{
 
  if (validator.isValid(numero) == true){
   alert("¡tarjeta valida!");
-  let numero = document.getElementById("numero").type = "text";
+  document.getElementById("numero").type = "text";
   document.getElementById("numero").value = validator.maskify(numero2);
 
 } else {
