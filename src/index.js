@@ -2,6 +2,7 @@ import validator from './validator.js';
 
 //console.log(validator);
 
+  
 let botonvalidar = document.getElementById("botonvalidar");
 botonvalidar.addEventListener("click", (event)=>{
   event.preventDefault();
@@ -22,4 +23,6 @@ botonvalidar.addEventListener("click", (event)=>{
   
 
 })
+
+
 
