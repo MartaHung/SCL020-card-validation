@@ -60,12 +60,12 @@
           
             <label class="textoTarjeta" for="NumeroTarjeta">
               Número de la Tarjeta
-              <input type="text" minlenght="1" maxlength="16" name="nTarjeta" id="numero" placeholder="    ****   ****  ****  ****     ">
+              <input type="number" minlenght="1" maxlength="16" name="nTarjeta" id="numero" placeholder="    ****   ****  ****  ****     ">
             </label>
             <br>
             <label class="textoTarjeta">
               Codigo CVV
-              <input type="number" minlenght="1" maxlength="3" id="cvv" placeholder="  ***" >
+              <input type="number" minlenght="1" maxlength="3" id="cvv" placeholder="  ***" onkeydown="teclaValida(event);">
             </label>
             <br>
             <label class="textoTarjeta" for="">
